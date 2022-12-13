@@ -1,13 +1,16 @@
 {
   "name": "02-ignite-timer-second",
   "private": true,
+  "homepage": "https://BernardoRh.github.io/02-ignite-timer",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .ts,tsx"
+    "lint": "eslint src --ext .ts,tsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "phosphor-react": "^1.4.1",

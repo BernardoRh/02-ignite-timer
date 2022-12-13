@@ -13,9 +13,9 @@ import {
 export function Home() {
   const [task, setTask] = useState('')
 
-  function restForm() {
-    setTask('')
-  }
+  //   function restForm() {
+  //     setTask('')
+  //   }
 
   return (
     <HomeContainer>
