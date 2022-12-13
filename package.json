@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint": "eslint src --ext .ts,tsx",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
     "phosphor-react": "^1.4.1",
