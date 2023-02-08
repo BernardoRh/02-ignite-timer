@@ -9,11 +9,11 @@ import { CyclesContextProvider } from './contexts/CyclesContext'
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <HashRouter>
-        <CyclesContextProvider>
+      <CyclesContextProvider>
+        <HashRouter>
           <Router />
-        </CyclesContextProvider>
-      </HashRouter>
+        </HashRouter>
+      </CyclesContextProvider>
       <GlobalStyle />
     </ThemeProvider>
   )
