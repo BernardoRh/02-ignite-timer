@@ -202,7 +202,7 @@ Error generating stack: `+o.message+`
   table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 600px;
+    width: 100%;
 
     th {
       background: ${e=>e.theme["gray-700"]};
@@ -238,6 +238,12 @@ Error generating stack: `+o.message+`
       &:first-child {
         width: 50%;
         padding-left: 1.5rem;
+      }
+      @media (max-width: 786px) {
+        &:first-child {
+          width: 30%;
+          padding-left: 1.5rem;
+        }
       }
 
       &:last-child {
