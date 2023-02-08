@@ -355,7 +355,7 @@ Error generating stack: `+o.message+`
     @media (max-width: 786px) {
 
         * {
-            font-size: 50%;
+            font-size: 70% !important;
         }
     }
 `,nx=tt.div`
