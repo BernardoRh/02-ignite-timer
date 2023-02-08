@@ -1,7 +1,6 @@
 {
   "name": "02-ignite-timer",
   "private": true,
-  "homepage": "https://BernardoRh.github.io/02-ignite-timer",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
