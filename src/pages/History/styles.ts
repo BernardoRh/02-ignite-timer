@@ -21,7 +21,7 @@ export const HistoryList = styled.main`
   table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 600px;
+    width: 100%;
 
     th {
       background: ${(props) => props.theme['gray-700']};
@@ -57,6 +57,12 @@ export const HistoryList = styled.main`
       &:first-child {
         width: 50%;
         padding-left: 1.5rem;
+      }
+      @media (max-width: 786px) {
+        &:first-child {
+          width: 30%;
+          padding-left: 1.5rem;
+        }
       }
 
       &:last-child {
