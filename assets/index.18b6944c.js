@@ -131,6 +131,9 @@ Error generating stack: `+o.message+`
     padding: 2rem 1rem;
     border-radius: 8px;
   }
+  @media (max-width: 786px) {
+    max-height: 12rem;
+  }
 `,Ok=tt.div`
   padding: 2rem 0;
   color: ${e=>e.theme["green-500"]};
@@ -185,7 +188,7 @@ Error generating stack: `+o.message+`
   }
 `,a2=n2({task:e2().min(1,"Informe a tarefa"),minutesAmount:t2().min(5,"O ciclo precisa ser no minimo de 5 minutos").max(60,"O ciclo precisa ser no maximo de 60 minutos")});function s2(){const{activeCycle:e,createNewCycle:t,interuptCurrentCycle:n}=F.exports.useContext(mo),r=dw({resolver:Hk(a2),defaultValues:{task:"",minutesAmount:0}}),{handleSubmit:i,watch:o,reset:a}=r;function s(c){t(c),a()}const u=!o("task");return g(r2,{children:ae("form",{onSubmit:i(s),action:"",children:[g(X1,{...r,children:g(Lk,{})}),g($k,{}),e?ae(o2,{onClick:n,type:"button",children:[g(jk,{size:24}),"Interromper"]}):ae(i2,{disabled:u,type:"submit",children:[g(zk,{size:24}),"Come\xE7ar"]})]})})}const l2=tt.main`
   flex: 1;
-  padding: 3.5rem;
+  padding: 3.5rem 0;
 
   display: flex;
   flex-direction: column;
@@ -199,10 +202,15 @@ Error generating stack: `+o.message+`
   overflow: auto;
   margin-top: 2rem;
 
+  @media (max-width: 786px) {
+    * {
+      font-size: 0.5rem !important;
+    }
+  }
   table {
     width: 100%;
     border-collapse: collapse;
-    width: 100%;
+    min-width: 600px;
 
     th {
       background: ${e=>e.theme["gray-700"]};
@@ -355,7 +363,7 @@ Error generating stack: `+o.message+`
     @media (max-width: 786px) {
 
         * {
-            font-size: 70% !important;
+            font-size: 50%;
         }
     }
 `,nx=tt.div`
