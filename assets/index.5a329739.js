@@ -338,4 +338,4 @@ Error generating stack: `+o.message+`
         font-weight: 400;
         font-size: 1rem;
     }
-`;function nx(){return ae(Ng,{theme:ex,children:[w(W1,{children:w(Ak,{children:w(q2,{})})}),w(tx,{})]})}xl.createRoot(document.getElementById("root")).render(w(Ue.StrictMode,{children:w(nx,{})}));
+`;function nx(){return ae(Ng,{theme:ex,children:[w(Ak,{children:w(W1,{children:w(q2,{})})}),w(tx,{})]})}xl.createRoot(document.getElementById("root")).render(w(Ue.StrictMode,{children:w(nx,{})}));
