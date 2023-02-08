@@ -19,11 +19,11 @@ export function NewCycleForm() {
       />
 
       <datalist id="taskSugestions">
-        <option value="prosjeto 1" />
-        <option value="prosjeto 2" />
-        <option value="prosjeto 3" />
-        <option value="prosjeto 4" />
-        <option value="prosjeto 5" />
+        <option value="projeto 1" />
+        <option value="projeto 2" />
+        <option value="projeto 3" />
+        <option value="projeto 4" />
+        <option value="projeto 5" />
         <option value="Banana" />
       </datalist>
 
