@@ -14,6 +14,9 @@ export const CountDowContainer = styled.div`
     padding: 2rem 1rem;
     border-radius: 8px;
   }
+  @media (max-width: 786px) {
+    max-height: 12rem;
+  }
 `
 
 export const Separator = styled.div`
